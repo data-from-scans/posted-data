@@ -1,0 +1,25 @@
+# Sum of China's 31 provincial GDP figures against the two national vintages
+# Source: National Bureau of Statistics of China.
+#   provincial_sum_trn  = my addition of the 31 provincial-level GDP values printed in the
+#                         China Statistical Yearbook regional table (table 3-9, one edition per
+#                         data year), retrieved 2026-10-11 (CST).
+#   national_prelim_trn = the preliminary national figure printed in that year's annual GDP
+#                         communiqué, published in January or February of the following year.
+#   national_rev_trn    = the latest revision of the same year (routine verification, or the
+#                         fourth/fifth economic census), as published by NBS.
+#   gap_vs_prelim_pct   = (provincial_sum_trn - national_prelim_trn) / national_prelim_trn,
+#                         computed on the unrounded sums — the percentage printed in the
+#                         article's table, reproduced here so the figure and the table agree.
+# Units: trillion yuan, current prices, as printed after conversion from 亿元.
+# Each row is one fixed vintage; all of these numbers move when NBS revises.
+year,provincial_sum_trn,national_prelim_trn,national_rev_trn,gap_vs_prelim_pct
+2015,72.28,67.67,68.91,6.81
+2016,78.01,74.41,74.36,4.83
+2017,84.71,82.71,82.08,2.42
+2018,91.47,90.03,91.93,1.60
+2019,98.53,99.09,98.65,-0.56
+2020,101.24,101.60,101.36,-0.35
+2021,113.77,114.37,114.92,-0.52
+2022,120.35,121.02,120.47,-0.56
+2023,125.09,126.06,129.43,-0.77
+2024,134.03,134.91,134.81,-0.65
